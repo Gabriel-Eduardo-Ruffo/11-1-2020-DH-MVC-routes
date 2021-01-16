@@ -7,5 +7,6 @@ const controllers = require ('../controllers/mainController');
 
 /*RUTA para mostrar los VIEW PRINCIPALES (controllers contiene todas los path principales a mostrar "home, about, etc")*/
 router.get('/', controllers.home);
+router.get('/about', controllers.about);
 
 module.exports = router;
